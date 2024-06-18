@@ -9,8 +9,9 @@ You can write a schema with unknownutil and check the type of the incoming value
 ## Usage
 
 ```ts
-import { is } from 'unknownutil'
-import { uValidator } from '@hono/unknownutil-validator'
+import { is } from '@core/unknownutil'
+import { Hono } from '@hono/hono'
+import { uValidator } from '@ryoppippi/hono-unknownutil-validator'
 
 const schema = is.ObjectOf({
   name: is.String,

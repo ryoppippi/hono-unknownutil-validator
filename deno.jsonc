@@ -5,7 +5,7 @@
     "dev": "deno run --watch mod.ts",
     "check": "deno check ./**/*.ts && deno fmt --check",
     "lint": "deno lint ./**/*.ts",
-    "test": "deno test -A --parallel --doc",
+    "test": "deno test -A --parallel",
     "test:coverage": "deno task test --coverage=.coverage",
     "coverage:show": "deno coverage .coverage",
     "coverage:lco": "deno coverage --lcov .coverage > .coverage/lcov.info"
