@@ -24,10 +24,16 @@
     "type-testing": "jsr:@std/testing@0.222.1/types"
   },
   "exports": "./mod.ts",
+  "publish": {
+    "exclude": [
+      ".vscode",
+      ".github",
+      ".gitignore",
+      ".coverage"
+    ]
+  },
   "keywords": [
-    "random",
-    "regex",
-    "typescript",
-    "typesafe"
+    "hono",
+    "unknownutil"
   ]
 }
