@@ -10,7 +10,7 @@ import { validator } from "@hono/hono/validator";
 import * as U from "@core/unknownutil";
 
 // deno-lint-ignore ban-types
-export type Hook<T, E extends Env, P extends string, O = {}> = (
+type Hook<T, E extends Env, P extends string, O = {}> = (
   result: Result<T>,
   c: Context<E, P>,
 ) =>
@@ -30,6 +30,30 @@ type OutputType<T> = T extends U.Predicate<infer O>
   ? undefined extends O ? never : O
   : never;
 
+/**
+ * Create a validator middleware with [unknownutil](https://github.com/jsr-core/unknownutil) schema.
+ *
+ * @example
+ * ```ts
+ * import { is } from 'unknownutil'
+ * import { uValidator } from '@hono/unknownutil-validator'
+ *
+ * const isAuthor = is.ObjectOf({
+ *  name: is.String,
+ *  age: is.Number,
+ * })
+ *
+ * type Author = U.PredicateType<typeof isAuthor>
+ *
+ * app.post('/author', uValidator('json', schema), (c) => {
+ *  const data = c.req.valid('json')
+ *  return c.json({
+ *    success: true,
+ *    message: `${data.name} is ${data.age}`,
+ *  })
+ * })
+ * ```
+ */
 export const uValidator = <
   S extends Schema,
   O extends OutputType<S>,
