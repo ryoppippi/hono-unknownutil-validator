@@ -1,6 +1,7 @@
 # Unknownutil validator middleware for Hono
 
 [![JSR](https://jsr.io/badges/@ryoppippi/hono-unknownutil-validator)](https://jsr.io/@ryoppippi/hono-unknownutil-validator)
+[![JSR](https://jsr.io/badges/@ryoppippi/hono-unknownutil-validator/score)](https://jsr.io/@ryoppippi/hono-unknownutil-validator)
 
 
 The type validator middleware using [unknownutil](https://github.com/lambdalisue/deno-unknownutil) for [Hono](https://honojs.dev) applications.
