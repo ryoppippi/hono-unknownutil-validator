@@ -1,5 +1,5 @@
 {
-  "name": "@ryoppippi/",
+  "name": "@ryoppippi/hono-unknownutil-validator",
   "version": "0.0.0",
   "tasks": {
     "dev": "deno run --watch mod.ts",
