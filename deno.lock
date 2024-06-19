@@ -8,7 +8,7 @@
       "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.4.6",
       "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
       "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0",
-      "jsr:@std/testing@0.222.1": "jsr:@std/testing@0.222.1",
+      "jsr:@std/testing@0.225.2": "jsr:@std/testing@0.225.2",
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:cronstrue": "npm:cronstrue@2.50.0"
     },
@@ -37,8 +37,8 @@
       "@std/internal@1.0.0": {
         "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
       },
-      "@std/testing@0.222.1": {
-        "integrity": "7be5c3ef185d31883116824a2dd604eb6f12a56fd5ed80489c7c696b2a76c5bc"
+      "@std/testing@0.225.2": {
+        "integrity": "ae5a55e412926acdba98ec3b72aba93d2ab40cad3d0cd2454b048c10ca3584d8"
       }
     },
     "npm": {
@@ -59,7 +59,7 @@
       "jsr:@cross/test@^0.0.9",
       "jsr:@hono/hono@^4.4.6",
       "jsr:@std/assert@^0.226.0",
-      "jsr:@std/testing@0.222.1"
+      "jsr:@std/testing@0.225.2"
     ]
   }
 }
