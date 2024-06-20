@@ -19,6 +19,8 @@ const schema = is.ObjectOf({
   age: is.Number,
 })
 
+const app = new Hono()
+
 app.post('/author', uValidator('json', schema), (c) => {
   const data = c.req.valid('json')
   return c.json({
