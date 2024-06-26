@@ -3,14 +3,47 @@
   "packages": {
     "specifiers": {
       "jsr:@core/unknownutil@^3.18.1": "jsr:@core/unknownutil@3.18.1",
-      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.4.8"
+      "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.0.0",
+      "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
+      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.4.8",
+      "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
+      "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0",
+      "jsr:@std/testing@0.225.3": "jsr:@std/testing@0.225.3",
+      "npm:@types/node": "npm:@types/node@18.16.19"
     },
     "jsr": {
       "@core/unknownutil@3.18.1": {
         "integrity": "6aaa108b623ff971d062dd345da7ca03b97f61ae3d29c8677bff14fec11f0d76"
       },
+      "@cross/runtime@1.0.0": {
+        "integrity": "dddecdf99182df13d50279d1e473f715e83d41961c5c22edd7bb0c4c3cf8a76a"
+      },
+      "@cross/test@0.0.9": {
+        "integrity": "2aa8237a96a2f8f51ccc8fec71135616d223bf4f38dd89ba4f863037c85ddc56",
+        "dependencies": [
+          "jsr:@cross/runtime@^1.0.0"
+        ]
+      },
       "@hono/hono@4.4.8": {
         "integrity": "6b387c666d4a1d2f50fbf7968ecaa73eb37690d08be0f5f3efe2d15dd6a679ce"
+      },
+      "@std/assert@0.226.0": {
+        "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.0"
+        ]
+      },
+      "@std/internal@1.0.0": {
+        "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
+      },
+      "@std/testing@0.225.3": {
+        "integrity": "348c24d0479d44ab3dbb4f26170f242e19f24051b45935d4a9e7ca0ab7e37780"
+      }
+    },
+    "npm": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
       }
     }
   },
@@ -21,7 +54,7 @@
       "jsr:@cross/test@^0.0.9",
       "jsr:@hono/hono@^4.4.6",
       "jsr:@std/assert@^0.226.0",
-      "jsr:@std/testing@0.225.2"
+      "jsr:@std/testing@0.225.3"
     ]
   }
 }
