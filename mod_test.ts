@@ -10,16 +10,16 @@ import { uValidator } from "./mod.ts";
 
 type ExtractSchema<T> = T extends Hono<infer _, infer S> ? S : never;
 
-const isAuthor = U.isObjectOf({
-  name: U.isString,
-  age: U.isNumber,
+const isAuthor = U.is.ObjectOf({
+  name: U.is.String,
+  age: U.is.Number,
 });
 
 type Author = U.PredicateType<typeof isAuthor>;
 
-const isItem = U.isObjectOf({
-  id: U.isNumber,
-  title: U.isString,
+const isItem = U.is.ObjectOf({
+  id: U.is.Number,
+  title: U.is.String,
 });
 
 type Item = U.PredicateType<typeof isItem>;
