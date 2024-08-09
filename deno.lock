@@ -2,7 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.0.1",
+      "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.0.3",
       "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.0.0",
       "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
       "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.5.4",
@@ -17,8 +17,8 @@
       "npm:@types/node": "npm:@types/node@18.16.19"
     },
     "jsr": {
-      "@core/unknownutil@4.0.1": {
-        "integrity": "5e08141ea8284d064bc4ee8c70aab42825355fb1399eaeb6140936f5f763f42d"
+      "@core/unknownutil@4.0.3": {
+        "integrity": "96fb490ad67362c8111284c92e98cff7d333674f8e7cdc9e3dc486d97ce566fd"
       },
       "@cross/runtime@1.0.0": {
         "integrity": "dddecdf99182df13d50279d1e473f715e83d41961c5c22edd7bb0c4c3cf8a76a"
