@@ -2,10 +2,10 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.2.0",
+      "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.2.2",
       "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.0.0",
       "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
-      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.5.6",
+      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.5.8",
       "jsr:@std/assert@^1.0.0": "jsr:@std/assert@1.0.2",
       "jsr:@std/assert@^1.0.2": "jsr:@std/assert@1.0.2",
       "jsr:@std/async@^1.0.2": "jsr:@std/async@1.0.3",
@@ -17,8 +17,8 @@
       "npm:@types/node": "npm:@types/node@18.16.19"
     },
     "jsr": {
-      "@core/unknownutil@4.2.0": {
-        "integrity": "cc0609f2e9fcfd68783c8c34d588261464114770d83047e93eaa1e13732aaedb"
+      "@core/unknownutil@4.2.2": {
+        "integrity": "3c93c9e17037cd3bf2eae0f00b4f3777b25f85399946a79ef2e25d90d3187a60"
       },
       "@cross/runtime@1.0.0": {
         "integrity": "dddecdf99182df13d50279d1e473f715e83d41961c5c22edd7bb0c4c3cf8a76a"
@@ -29,8 +29,8 @@
           "jsr:@cross/runtime@^1.0.0"
         ]
       },
-      "@hono/hono@4.5.6": {
-        "integrity": "6b156968a5f34e97aa96a530ae67740190c1f8a045855342ce289cc5e9ce0a54"
+      "@hono/hono@4.5.8": {
+        "integrity": "60f5b4c61edae2016022d6087b4fc381f378d337f046f56e00a3a3512c7e9c16"
       },
       "@std/assert@1.0.2": {
         "integrity": "ccacec332958126deaceb5c63ff8b4eaf9f5ed0eac9feccf124110435e59e49c",
