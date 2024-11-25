@@ -5,7 +5,7 @@
       "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.3.0",
       "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.0.0",
       "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
-      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.6.11",
+      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.6.12",
       "jsr:@std/assert@^1.0.0": "jsr:@std/assert@1.0.8",
       "jsr:@std/assert@^1.0.8": "jsr:@std/assert@1.0.8",
       "jsr:@std/async@^1.0.8": "jsr:@std/async@1.0.9",
@@ -29,8 +29,8 @@
           "jsr:@cross/runtime@^1.0.0"
         ]
       },
-      "@hono/hono@4.6.11": {
-        "integrity": "07399d911f09e94b7dc1e0e0a0577d35fe66578af20163d513958364c4e9e702"
+      "@hono/hono@4.6.12": {
+        "integrity": "fa0b97fa7c3292f0d9957109ac07a475fe485868795b71b8e3114c284152cdb5"
       },
       "@std/assert@1.0.8": {
         "integrity": "ebe0bd7eb488ee39686f77003992f389a06c3da1bbd8022184804852b2fa641b",
