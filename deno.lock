@@ -3,37 +3,37 @@
   "packages": {
     "specifiers": {
       "jsr:@core/unknownutil@^4.0.1": "jsr:@core/unknownutil@4.3.0",
-      "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.0.0",
-      "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
-      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.6.11",
-      "jsr:@std/assert@^1.0.0": "jsr:@std/assert@1.0.8",
-      "jsr:@std/assert@^1.0.8": "jsr:@std/assert@1.0.8",
-      "jsr:@std/async@^1.0.8": "jsr:@std/async@1.0.9",
-      "jsr:@std/data-structures@^1.0.4": "jsr:@std/data-structures@1.0.4",
-      "jsr:@std/fs@^1.0.5": "jsr:@std/fs@1.0.6",
+      "jsr:@cross/runtime@^1.0.0": "jsr:@cross/runtime@1.1.0",
+      "jsr:@cross/test@^0.0.10": "jsr:@cross/test@0.0.10",
+      "jsr:@hono/hono@^4.4.6": "jsr:@hono/hono@4.6.14",
+      "jsr:@std/assert@^1.0.0": "jsr:@std/assert@1.0.10",
+      "jsr:@std/assert@^1.0.10": "jsr:@std/assert@1.0.10",
+      "jsr:@std/async@^1.0.9": "jsr:@std/async@1.0.9",
+      "jsr:@std/data-structures@^1.0.5": "jsr:@std/data-structures@1.0.5",
+      "jsr:@std/fs@^1.0.7": "jsr:@std/fs@1.0.7",
       "jsr:@std/internal@^1.0.5": "jsr:@std/internal@1.0.5",
       "jsr:@std/path@^1.0.8": "jsr:@std/path@1.0.8",
-      "jsr:@std/testing@1.0.5": "jsr:@std/testing@1.0.5",
+      "jsr:@std/testing@1.0.7": "jsr:@std/testing@1.0.7",
       "npm:@types/node": "npm:@types/node@18.16.19"
     },
     "jsr": {
       "@core/unknownutil@4.3.0": {
         "integrity": "538a3687ffa81028e91d148818047df219663d0da671d906cecd165581ae55cc"
       },
-      "@cross/runtime@1.0.0": {
-        "integrity": "dddecdf99182df13d50279d1e473f715e83d41961c5c22edd7bb0c4c3cf8a76a"
+      "@cross/runtime@1.1.0": {
+        "integrity": "f35a3b768a9de125277329483b684062ffc9ee86f4449cb8b3d614adcad64ffb"
       },
-      "@cross/test@0.0.9": {
-        "integrity": "2aa8237a96a2f8f51ccc8fec71135616d223bf4f38dd89ba4f863037c85ddc56",
+      "@cross/test@0.0.10": {
+        "integrity": "5f235cdd927d5551d692bc413458625552d299bc5471baf18180e4287cf4ac20",
         "dependencies": [
           "jsr:@cross/runtime@^1.0.0"
         ]
       },
-      "@hono/hono@4.6.11": {
-        "integrity": "07399d911f09e94b7dc1e0e0a0577d35fe66578af20163d513958364c4e9e702"
+      "@hono/hono@4.6.14": {
+        "integrity": "b39a5488266adf448fb1081bc3071a0d05145e72f3ab3ff83cf140e780c6c1de"
       },
-      "@std/assert@1.0.8": {
-        "integrity": "ebe0bd7eb488ee39686f77003992f389a06c3da1bbd8022184804852b2fa641b",
+      "@std/assert@1.0.10": {
+        "integrity": "59b5cbac5bd55459a19045d95cc7c2ff787b4f8527c0dd195078ff6f9481fbb3",
         "dependencies": [
           "jsr:@std/internal@^1.0.5"
         ]
@@ -41,11 +41,11 @@
       "@std/async@1.0.9": {
         "integrity": "c6472fd0623b3f3daae023cdf7ca5535e1b721dfbf376562c0c12b3fb4867f91"
       },
-      "@std/data-structures@1.0.4": {
-        "integrity": "fa0e20c11eb9ba673417450915c750a0001405a784e2a4e0c3725031681684a0"
+      "@std/data-structures@1.0.5": {
+        "integrity": "86dd5c2d6365a6ad56e9103b3a877c5d5ade238c68ae463acfe0eb0e56d40783"
       },
-      "@std/fs@1.0.6": {
-        "integrity": "42b56e1e41b75583a21d5a37f6a6a27de9f510bcd36c0c85791d685ca0b85fa2",
+      "@std/fs@1.0.7": {
+        "integrity": "95ac7326e0e59089c979706e17bb28db03b5fb41c5a37c9c556788198b0662d6",
         "dependencies": [
           "jsr:@std/path@^1.0.8"
         ]
@@ -56,13 +56,13 @@
       "@std/path@1.0.8": {
         "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
       },
-      "@std/testing@1.0.5": {
-        "integrity": "6e693cbec94c81a1ad3df668685c7ba8e20742bb10305bc7137faa5cf16d2ec4",
+      "@std/testing@1.0.7": {
+        "integrity": "aa5f0507352449064b09eff70ac1b6da3f765ee66bcc20dad9e5e433776580d5",
         "dependencies": [
-          "jsr:@std/assert@^1.0.8",
-          "jsr:@std/async@^1.0.8",
-          "jsr:@std/data-structures@^1.0.4",
-          "jsr:@std/fs@^1.0.5",
+          "jsr:@std/assert@^1.0.10",
+          "jsr:@std/async@^1.0.9",
+          "jsr:@std/data-structures@^1.0.5",
+          "jsr:@std/fs@^1.0.7",
           "jsr:@std/internal@^1.0.5",
           "jsr:@std/path@^1.0.8"
         ]
@@ -79,10 +79,10 @@
   "workspace": {
     "dependencies": [
       "jsr:@core/unknownutil@^4.0.1",
-      "jsr:@cross/test@^0.0.9",
+      "jsr:@cross/test@^0.0.10",
       "jsr:@hono/hono@^4.4.6",
       "jsr:@std/assert@^1.0.0",
-      "jsr:@std/testing@1.0.5"
+      "jsr:@std/testing@1.0.7"
     ]
   }
 }
