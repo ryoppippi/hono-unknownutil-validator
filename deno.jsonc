@@ -18,10 +18,10 @@
   },
   "imports": {
     "@core/unknownutil": "jsr:@core/unknownutil@^4.0.1",
-    "@cross/test": "jsr:@cross/test@^0.0.9",
+    "@cross/test": "jsr:@cross/test@^0.0.10",
     "@hono/hono": "jsr:@hono/hono@^4.4.6",
     "@std/assert": "jsr:@std/assert@^1.0.0",
-    "type-testing": "jsr:@std/testing@1.0.5/types"
+    "type-testing": "jsr:@std/testing@1.0.9/types"
   },
   "exports": "./mod.ts",
   "publish": {
