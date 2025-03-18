@@ -7,14 +7,14 @@ on:
     branches:
       - main
     paths:
-      - '**.ts'
-      - '.github/workflows/test.yml'
-      - 'deno.jsonc'
+      - "**.ts"
+      - ".github/workflows/test.yml"
+      - "deno.jsonc"
   pull_request:
     branches:
       - main
     paths:
-      - '**.ts'
+      - "**.ts"
 
 permissions:
   contents: read
@@ -97,7 +97,7 @@ jobs:
       - run: deno publish --dry-run
 
   action-timeline:
-    needs: 
+    needs:
       - ci
       - test
       - coverage-report
@@ -105,4 +105,4 @@ jobs:
     if: ${{ always() }}
     runs-on: ubuntu-latest
     steps:
-    - uses: Kesin11/actions-timeline@427ee2cf860166e404d0d69b4f2b24012bb7af4f # v2.2.3
+      - uses: Kesin11/actions-timeline@427ee2cf860166e404d0d69b4f2b24012bb7af4f # v2.2.3
