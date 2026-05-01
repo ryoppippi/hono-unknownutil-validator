@@ -7,7 +7,7 @@
     "jsr:@hono/hono@^4.4.6": "4.7.10",
     "jsr:@std/assert@^1.0.19": "1.0.19",
     "jsr:@std/internal@^1.0.12": "1.0.13",
-    "jsr:@std/testing@1.0.12": "1.0.12",
+    "jsr:@std/testing@1.0.18": "1.0.18",
     "npm:@types/node@*": "18.16.19"
   },
   "jsr": {
@@ -38,8 +38,8 @@
     "@std/internal@1.0.13": {
       "integrity": "2f9546691d4ac2d32859c82dff284aaeac980ddeca38430d07941e7e288725c0"
     },
-    "@std/testing@1.0.12": {
-      "integrity": "fec973a45ccc62c540fb89296199051fee142409138fd6e3eae409366bcd4720"
+    "@std/testing@1.0.18": {
+      "integrity": "d3152f57b11666bf6358d0e127c7e3488e91178b0c2d8fbf0793e1c53cd13cb1"
     }
   },
   "npm": {
@@ -53,7 +53,7 @@
       "jsr:@cross/test@^0.0.14",
       "jsr:@hono/hono@^4.4.6",
       "jsr:@std/assert@^1.0.19",
-      "jsr:@std/testing@1.0.12"
+      "jsr:@std/testing@1.0.18"
     ]
   }
 }
