@@ -7,8 +7,7 @@
     "jsr:@hono/hono@^4.12.18": "4.12.18",
     "jsr:@std/assert@^1.0.19": "1.0.19",
     "jsr:@std/internal@^1.0.12": "1.0.13",
-    "jsr:@std/testing@1.0.18": "1.0.18",
-    "npm:@types/node@*": "18.16.19"
+    "jsr:@std/testing@1.0.18": "1.0.18"
   },
   "jsr": {
     "@core/unknownutil@4.3.0": {
@@ -32,19 +31,11 @@
         "jsr:@std/internal"
       ]
     },
-    "@std/internal@1.0.6": {
-      "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
-    },
     "@std/internal@1.0.13": {
       "integrity": "2f9546691d4ac2d32859c82dff284aaeac980ddeca38430d07941e7e288725c0"
     },
     "@std/testing@1.0.18": {
       "integrity": "d3152f57b11666bf6358d0e127c7e3488e91178b0c2d8fbf0793e1c53cd13cb1"
-    }
-  },
-  "npm": {
-    "@types/node@18.16.19": {
-      "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA=="
     }
   },
   "workspace": {
