@@ -4,7 +4,7 @@
     "jsr:@core/unknownutil@^4.3.0": "4.3.0",
     "jsr:@cross/runtime@1.0": "1.0.0",
     "jsr:@cross/test@^0.0.14": "0.0.14",
-    "jsr:@hono/hono@^4.13.20": "4.13.21",
+    "jsr:@hono/hono@^4.13.21": "4.13.22",
     "jsr:@std/assert@^1.0.19": "1.0.19",
     "jsr:@std/internal@^1.0.12": "1.0.13",
     "jsr:@std/testing@1.0.21": "1.0.21",
@@ -23,8 +23,8 @@
         "jsr:@cross/runtime"
       ]
     },
-    "@hono/hono@4.13.21": {
-      "integrity": "b5cbc6bded8685f7a064946e9e93abed256bcc1c75713ad5396e6a14bbbc107e"
+    "@hono/hono@4.13.22": {
+      "integrity": "35aac769e059f9be475405071515ac0ba0533ae0b95088655c623a1febd49185"
     },
     "@std/assert@1.0.19": {
       "integrity": "eaada96ee120cb980bc47e040f82814d786fe8162ecc53c91d8df60b8755991e",
@@ -51,7 +51,7 @@
     "dependencies": [
       "jsr:@core/unknownutil@^4.3.0",
       "jsr:@cross/test@^0.0.14",
-      "jsr:@hono/hono@^4.13.20",
+      "jsr:@hono/hono@^4.13.21",
       "jsr:@std/assert@^1.0.19",
       "jsr:@std/testing@1.0.21"
     ]
